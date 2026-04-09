@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JdbcDaoProject-2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JdbcDao/target/JdbcDaoProject-2.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

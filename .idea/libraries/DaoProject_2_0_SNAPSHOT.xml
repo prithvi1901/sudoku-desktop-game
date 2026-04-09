@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DaoProject-2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Dao/target/DaoProject-2.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

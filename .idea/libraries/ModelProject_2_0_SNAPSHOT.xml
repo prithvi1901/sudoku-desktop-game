@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ModelProject-2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Model/target/ModelProject-2.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
