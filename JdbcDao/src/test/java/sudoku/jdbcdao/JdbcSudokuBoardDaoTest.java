@@ -1,20 +1,28 @@
 package sudoku.jdbcdao;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import org.jooq.DSLContext;
 import org.jooq.SQLDialect;
 import org.jooq.impl.DSL;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+
 import sudoku.dao.interfaces.Dao;
 import sudoku.jdbcdao.exceptions.JdbcDaoReadException;
 import sudoku.jdbcdao.exceptions.JdbcDaoWriteException;
 import sudoku.model.models.SudokuBoard;
 import sudoku.model.solver.BacktrackingSudokuSolver;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
-import static org.junit.jupiter.api.Assertions.*;
 import static sudokujdbc.jooq.generated.Tables.SUDOKU_BOARDS;
 import static sudokujdbc.jooq.generated.Tables.SUDOKU_FIELDS;
 
