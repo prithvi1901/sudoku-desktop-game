@@ -10,7 +10,6 @@ public class EnglishAuthorsResourceBundle extends ListResourceBundle {
                 { "university", "Lodz University of Technology" },
                 { "247026", "Oskar Kacprzak" },
                 { "247027", "Wojciech Kapica" },
-                { "676767", "Prithvi Raj Soni"}
         };
 
     }
